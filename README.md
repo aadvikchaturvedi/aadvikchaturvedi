@@ -57,7 +57,7 @@
 
 - 🌐 [LinkedIn](https://www.linkedin.com/in/aadvikchaturvedi)
 - 🧠 [Kaggle](https://www.kaggle.com/aadvikchaturvedi)
-- 📬 Email: aadvikchaturvedi@gmail.com
+- 📬 Email: aadvikchaturvedi06@gmail.com
 
 ---
 
