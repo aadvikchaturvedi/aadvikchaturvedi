@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C5CE7&center=true&vCenter=true&width=600&lines=CS+%40+DTU%2C+Delhi;ML+Intern+%40+CRIS%2C+Ministry+of+Railways;Building+GNNs%2C+distributed+pipelines%2C+full-stack+apps;LeetCode+Knight+%7C+Meta+Hacker+Cup" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C5CE7&center=true&vCenter=true&width=640&lines=CSE+%40+DTU%2C+Delhi;Agentic+systems+%2B+computer+vision;ML+Intern+%40+CRIS%2C+Ministry+of+Railways;LeetCode+Knight+%7C+Codeforces+Specialist" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -12,74 +12,59 @@
   <a href="mailto:aadvikchaturvedi06@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-<br/>
+### About me
 
-### 💫 About Me
+I'm a B.Tech CSE student at **Delhi Technological University** (2024–28, CGPA 9.19). I build AI systems that have to work outside a notebook: agents that call tools and recover from failures, vision models that sit behind an API, and the plumbing in between (queues, rate limiters, caches, streaming).
 
-- 🎓 B.Tech Computer Engineering @ **Delhi Technological University** (9.40/10 CGPA)
-- 🚄 Currently building a **GATv2Conv + BiGRU graph neural network** at CRIS (Ministry of Railways) to predict intercity train delays across the national rail network in real time
-- ⚡ I care about systems that are fast under the hood — concurrent pipelines, distributed rate limiting, caching — as much as I care about how they feel to use
-- ♞ **Knight** on LeetCode (highest rating ~1940) · competed in **Meta Hacker Cup**
-- 🛠️ Currently shipping: a browser-first AI dev workspace, a multi-agent job-matching pipeline, and a few things not public yet
-- 📬 Always up for talking ML systems, backend architecture, or competitive programming — DMs open
+- **CRIS, Ministry of Railways (ML Intern, Jun–Aug 2026).** Built and deployed a delay-prediction service on live data for 1,000+ trains a day. Caught a target-leakage bug hidden in undocumented columns, rebuilt the pipeline, and took a GATv2 + BiGRU model to R² 0.951 (about 39% lower error than the historical baseline).
+- **Vision + agents.** Remote-sensing VLM assistant with an auditable task router (SIH), satellite/radar nowcasting with SimVP, and a DeiT chest X-ray classifier with explainability checks.
+- **Competitive programming.** LeetCode Knight (peak 2,067), Codeforces Specialist (peak 1,584), Meta Hacker Cup 2025 Round 2.
 
-> And no, my contribution chart is not fake. 🌱
-
-<br/>
-
-### 🛠️ Tech Stack
+### Tech stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <br/>
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
   <br/>
+  <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
 </p>
 
-<br/>
+### Featured work
 
-### 🚀 Featured Projects
+#### Agents and LLM systems
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>💻 <a href="https://github.com/aadvikchaturvedi/CodeHelp">CodeHelp</a></h4>
-      <p>Browser-first AI dev workspace — Monaco editor, real local file system access, streaming Claude-powered chat, optional Redis caching and Ollama completions.</p>
-      <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🤖 <a href="https://github.com/aadvikchaturvedi/Agentic-Profile-to-Job-Matcher">Multi-Agent Job Extractor</a></h4>
-      <p>Four-stage agent pipeline (scrape → parse → match → rank) with concurrent Playwright scraping, Redis FIFO queue + sliding-window rate limiting, and WebSocket-streamed progress.</p>
-      <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🔍 <a href="https://github.com/aadvikchaturvedi/VajraAI">VajraAI</a></h4>
-      <p>Self-supervised Transformer pipeline for anomaly detection on 100K+ records with no labelled data — ROC-AUC 0.81, deployed as a scalable FastAPI + React service.</p>
-      <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🗺️ <a href="https://github.com/aadvikchaturvedi/MapLY">MapLY</a></h4>
-      <p>Safety-aware graph navigation — a trained risk model feeding a custom Dijkstra-variant router, cutting high-risk traversals by ~38% at sub-200ms latency.</p>
-      <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-    </td>
-  </tr>
-</table>
+| Project | What it is | Stack |
+|---|---|---|
+| [**SatQuery AI**](https://github.com/aadvikchaturvedi/SatQuery) | Ask questions about Sentinel-2 optical and SAR imagery. A rule-based controller decides from the inputs and the query whether to run VQA, captioning, grounding (Qwen2.5-VL-3B + LoRA), optical–SAR fusion or bi-temporal change detection, and logs an auditable execution report. Team project for SIH; I built the FastAPI backend, the agent/tool layer and the model integration. | FastAPI, Qwen2.5-VL, LoRA, Gemini, React |
+| [**Multi-Agent Job Extractor**](https://github.com/aadvikchaturvedi/Agentic-Profile-to-Job-Matcher) | Scraper → Parser → Enrichment → Matching agents. Playwright scraping with per-domain token buckets, LLM fallback parsing, embedding pre-filter plus LLM scoring, retries with backoff, pause/resume/stop, live progress over WebSockets. | FastAPI, Playwright, Redis, Next.js |
+| [**CodeHelp**](https://github.com/aadvikchaturvedi/CodeHelp) | Browser IDE that edits real local folders (File System Access API), with streaming LLM chat over SSE (local Ollama or Claude), code suggestions from a local model, and a Redis response cache. | Next.js 16, TypeScript, Redis, Docker |
+| [**Project Prithvi**](https://github.com/aadvikchaturvedi/Project-Prithvi-New) | Recycling-pickup app with a tool-calling support agent grounded in a knowledge base. | FastAPI, Supabase, React |
 
-<br/>
+#### Computer vision and spatio-temporal ML
 
-### 📊 GitHub Stats
+| Project | What it is | Stack |
+|---|---|---|
+| [**Thunderstorm nowcasting (SIH 2026)**](https://github.com/aadvikchaturvedi/sih26072) | SimVP model that forecasts radar reflectivity 10–120 min ahead and lightning probability, with radar-dropout training for a satellite-only fallback, isotonic calibration and a diffusion refiner for ensembles. Backend issues district warnings in CAP format. Validated end to end on synthetic data so far. | PyTorch, FastAPI, React |
+| [**Explainable COVID-19 X-ray ViT**](https://github.com/aadvikchaturvedi/Explainable-COVID-19-Chest-X-Ray-Classification-Using-Fine-Tuned-Vision-Transformers) | Fine-tuned DeiT-base (last 4 blocks), 96.8% test accuracy on 3 classes, with Grad-CAM and gradient-saliency maps plus a deletion/insertion evaluation harness. | PyTorch, timm |
+| [**Splash**](https://github.com/aadvikchaturvedi/Splash) | Product layer for AI diving judging: upload a dive video, get entry, splash and position scores from an action-quality model. | Next.js, Supabase |
+
+#### ML on real-world data
+
+| Project | What it is |
+|---|---|
+| [**VajraAI**](https://github.com/aadvikchaturvedi/VajraAI) | Hack4Delhi team project. Tabular Transformer for transaction fraud on IEEE-CIS with focal loss, hard-negative mining and leakage-safe expanding-window CV (best fold ROC-AUC 0.807). |
+| [**MapLY**](https://github.com/aadvikchaturvedi/MapLY) | Safety-aware routing: district-level risk model on NCRB crime data, DistilBERT sentiment on community reports, RAG safety chatbot, WebSocket SOS. |
+| [**Flipkart Gridlock**](https://github.com/aadvikchaturvedi/flipkart_gridlock) | Geohash-level demand forecasting. Feature engineering took XGBoost from R² 0.750 to 0.945. |
+
+### GitHub stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=aadvikchaturvedi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
@@ -88,10 +73,6 @@
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=aadvikchaturvedi&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aadvikchaturvedi&theme=discord&no-frame=true&row=1&column=6" />
 </p>
 
 <p align="center">
