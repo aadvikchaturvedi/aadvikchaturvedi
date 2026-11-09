@@ -61,7 +61,7 @@ I'm a B.Tech CSE student at **Delhi Technological University** (2024–28, CGPA 
 | Project | What it is |
 |---|---|
 | [**VajraAI**](https://github.com/aadvikchaturvedi/VajraAI) | Hack4Delhi team project. Tabular Transformer for transaction fraud on IEEE-CIS with focal loss, hard-negative mining and leakage-safe expanding-window CV (best fold ROC-AUC 0.807). |
-| [**MapLY**](https://github.com/aadvikchaturvedi/MapLY) | Safety-aware routing: district-level risk model on NCRB crime data, DistilBERT sentiment on community reports, RAG safety chatbot, WebSocket SOS. |
+| [**MapLY**](https://github.com/aadvikchaturvedi/MapLY) | Team project. Route risk overlay: each stretch of an OSRM route is scored by a district-level XGBoost model on NCRB crime data. Plus a Gemini + Pinecone RAG safety chatbot, DistilBERT sentiment and WebSocket SOS. I built the ML backend. |
 | [**Flipkart Gridlock**](https://github.com/aadvikchaturvedi/flipkart_gridlock) | Geohash-level demand forecasting. Feature engineering took XGBoost from R² 0.750 to 0.945. |
 
 ### GitHub stats
