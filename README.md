@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C5CE7&center=true&vCenter=true&width=640&lines=CSE+%40+DTU%2C+Delhi;Agentic+systems+%2B+computer+vision;ML+Intern+%40+CRIS%2C+Ministry+of+Railways;LeetCode+Knight+%7C+Codeforces+Specialist" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C5CE7&center=true&vCenter=true&width=640&lines=CSE+%40+DTU%2C+Delhi;Agentic+systems+%2B+computer+vision;ML+Intern+%40+CRIS%2C+Ministry+of+Railways;LeetCode+Knight+%7C+Meta+Hacker+Cup+R2" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ I'm a B.Tech CSE student at **Delhi Technological University** (2024–28, CGPA 
 
 - **CRIS, Ministry of Railways (ML Intern, Jun–Aug 2026).** Built and deployed a delay-prediction service on live data for 1,000+ trains a day. Caught a target-leakage bug hidden in undocumented columns, rebuilt the pipeline, and took a GATv2 + BiGRU model to R² 0.951 (about 39% lower error than the historical baseline).
 - **Vision + agents.** Remote-sensing VLM assistant with an auditable task router (SIH), satellite/radar nowcasting with SimVP, and a DeiT chest X-ray classifier with explainability checks.
-- **Competitive programming.** LeetCode Knight (peak 2,067), Codeforces Specialist (peak 1,584), Meta Hacker Cup 2025 Round 2.
+- **Competitive programming.** LeetCode Knight (peak 2,067), Meta Hacker Cup 2025 Round 2 (global #2,893), ICPC India 2026 regionals pool.
 
 ### Tech stack
 
@@ -43,10 +43,10 @@ I'm a B.Tech CSE student at **Delhi Technological University** (2024–28, CGPA 
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**SatQuery AI**](https://github.com/aadvikchaturvedi/SatQuery) | Ask questions about Sentinel-2 optical and SAR imagery. A rule-based controller decides from the inputs and the query whether to run VQA, captioning, grounding (Qwen2.5-VL-3B + LoRA), optical–SAR fusion or bi-temporal change detection, and logs an auditable execution report. Team project for SIH; I built the FastAPI backend, the agent/tool layer and the model integration. | FastAPI, Qwen2.5-VL, LoRA, Gemini, React |
+| [**SatQuery AI**](https://github.com/aadvikchaturvedi/SatQuery) | Ask questions about Sentinel-2 optical and Sentinel-1 SAR imagery. A rule-based controller decides from the inputs and the query whether to run VQA, captioning, grounding (Qwen2.5-VL-3B + LoRA), optical–SAR fusion or bi-temporal change detection, and logs an auditable execution report. Team project for SIH; I built the FastAPI backend, the agent/tool layer and the model integration (teammates trained the LoRA adapters). | FastAPI, Qwen2.5-VL, LoRA, Gemini, React |
 | [**Multi-Agent Job Extractor**](https://github.com/aadvikchaturvedi/Agentic-Profile-to-Job-Matcher) | Scraper → Parser → Enrichment → Matching agents. Playwright scraping with per-domain token buckets, LLM fallback parsing, embedding pre-filter plus LLM scoring, retries with backoff, pause/resume/stop, live progress over WebSockets. | FastAPI, Playwright, Redis, Next.js |
-| [**CodeHelp**](https://github.com/aadvikchaturvedi/CodeHelp) | Browser IDE that edits real local folders (File System Access API), with streaming LLM chat over SSE (local Ollama or Claude), code suggestions from a local model, and a Redis response cache. | Next.js 16, TypeScript, Redis, Docker |
-| [**Project Prithvi**](https://github.com/aadvikchaturvedi/Project-Prithvi-New) | Recycling-pickup app with a tool-calling support agent grounded in a knowledge base. | FastAPI, Supabase, React |
+| [**CodeHelp**](https://github.com/aadvikchaturvedi/CodeHelp) | Browser IDE that edits real local folders (File System Access API), with streaming chat over SSE from a local Ollama model, code suggestions, and a Claude streaming endpoint with a Redis response cache. | Next.js 16, TypeScript, Redis, Docker |
+| [**Project Prithvi**](https://github.com/aadvikchaturvedi/Project-Prithvi-New) | Team project. Recycling-pickup app with a tool-calling support agent grounded in a knowledge base. | FastAPI, Supabase, React |
 
 #### Computer vision and spatio-temporal ML
 
@@ -60,7 +60,7 @@ I'm a B.Tech CSE student at **Delhi Technological University** (2024–28, CGPA 
 
 | Project | What it is |
 |---|---|
-| [**VajraAI**](https://github.com/aadvikchaturvedi/VajraAI) | Hack4Delhi team project. Tabular Transformer for transaction fraud on IEEE-CIS with focal loss, hard-negative mining and leakage-safe expanding-window CV (best fold ROC-AUC 0.807). |
+| [**VajraAI**](https://github.com/aadvikchaturvedi/VajraAI) | Hack4Delhi team project. Tabular Transformer for transaction fraud on IEEE-CIS with focal loss, hard-negative mining and leakage-safe expanding-window CV (best fold ROC-AUC 0.807 on a 20K-row subset; mean 0.757). |
 | [**MapLY**](https://github.com/aadvikchaturvedi/MapLY) | Team project. Route risk overlay: each stretch of an OSRM route is scored by a district-level XGBoost model on NCRB crime data. Plus a Gemini + Pinecone RAG safety chatbot, DistilBERT sentiment and WebSocket SOS. I built the ML backend. |
 | [**Flipkart Gridlock**](https://github.com/aadvikchaturvedi/flipkart_gridlock) | Geohash-level demand forecasting. Feature engineering took XGBoost from R² 0.750 to 0.945. |
 
